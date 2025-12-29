@@ -24,7 +24,7 @@ Clone the following github repositories into your workspace folder.
 
 ```Bash
 git clone https://github.com/AiSaurabhPatil/assignment_dataset.git
-git clone https://github.com/ProEvolution03/ros-neural-navigator.git
+git clone https://github.com/ProEvolution03/neural-navigator.git
 ```
 
 ## 2. Installation
