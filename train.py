@@ -10,7 +10,6 @@ LR = 0.001
 DEVICE = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 def train():
-    # Make sure 'assignment_dataset' folder exists in current directory
     train_loader = get_dataloader('assignment_dataset', split='data', batch_size=BATCH_SIZE)
     model = NeuralNavigator().to(DEVICE)
     optimizer = optim.Adam(model.parameters(), lr=LR)
@@ -39,4 +38,5 @@ def train():
     print("Model saved.")
 
 if __name__ == "__main__":
+
     train()
